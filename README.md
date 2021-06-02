@@ -1,2 +1,24 @@
-# Workshop - construindo uma aplicação web do zero
-Feito com base na playlist [neste link](https://www.youtube.com/playlist?list=PL4dBbZKCU64qu78g1_h4iNsu2Fo0pizJE)
+# workshop-build-web-application
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
