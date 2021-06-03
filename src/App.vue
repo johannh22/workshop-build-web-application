@@ -14,8 +14,10 @@ import Toolbar from './components/Toolbar.vue';
 
 export default {
   name: 'App',
+
   components: {
     Toolbar,
   },
+  
 };
 </script>

@@ -1,22 +1,22 @@
 <template>
-  <div>
+  <div class="tasks-toolbar">
     <v-app-bar
-      color="deep-purple accent-4"
-      dense
+      color="transparent"
+      elevation="0"
       dark
+      height="80"
     >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Page title</v-toolbar-title>
+      <v-toolbar-title class="title-toolbar">Tasks</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
+      <v-btn text color="#000">
+        Button
       </v-btn>
 
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
+      <v-btn text color="#000">
+        Button
       </v-btn>
 
       <v-menu
@@ -51,3 +51,14 @@ export default {
     name: 'Toolbar',
 }
 </script>
+
+<style lang="scss">
+.tasks-toolbar {
+  margin: 0 100px;
+
+  .title-toolbar {
+    color: $button-color;
+    font-family: 'Ubuntu-Bold';
+  }
+}
+</style>
